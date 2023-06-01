@@ -9,7 +9,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
-        {title
+        {title}
       </h4>
       <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
         {content}
